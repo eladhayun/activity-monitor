@@ -1,8 +1,10 @@
 setup.py
-app/__init__.py
-app/cpu_collector.py
-app/disk_collector.py
-app/memory_collector.py
-app/network_collector.py
-app/repository.py
-app/system_aggregator.py
+bin/__init__.py
+bin/run
+cinnamon/__init__.py
+cinnamon/cpu_collector.py
+cinnamon/disk_collector.py
+cinnamon/memory_collector.py
+cinnamon/network_collector.py
+cinnamon/repository.py
+cinnamon/system_aggregator.py

@@ -12,7 +12,7 @@ setup(
     author_email="elad.hayun@gmail.com",
 
     # Packages
-    packages=["app"],
+    packages=["cinnamon"],
 
     # Include additional files into the package
     include_package_data=True,
