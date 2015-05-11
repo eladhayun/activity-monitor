@@ -1,14 +1,11 @@
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+from setuptools import setup
 
 setup(
     # Application name:
-    name="CinnaMON",
+    name="cinnamon",
 
     # Version number (initial):
-    version="0.1.0",
+    version="1.0.0.0",
 
     # Application author details:
     author="Elad Hayun",
@@ -21,16 +18,17 @@ setup(
     include_package_data=True,
 
     # Details
-    url="http://pypi.python.org/pypi/CinnaMON_v010/",
+    url="https://github.com/eladhayun/cinnamon-server",
 
     # License
-    license="LICENSE",
-    description="A monitoring application to inspect remote hosts system usage",
+    license="MIT",
 
+    description="A monitoring application to inspect remote hosts system usage",
     long_description=open("README.md").read(),
 
     # Dependent packages (distributions)
     install_requires=[
         "flask",
     ],
+    data_files=[("", ["LICENSE", "README.md"])],
 )
