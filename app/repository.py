@@ -34,7 +34,3 @@ def disk():
 def network():
     if request.method == "GET":
         return jsonify(**system_aggregator.get_network_usage())
-
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0")
