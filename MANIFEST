@@ -1,0 +1,8 @@
+setup.py
+app/__init__.py
+app/cpu_collector.py
+app/disk_collector.py
+app/memory_collector.py
+app/network_collector.py
+app/repository.py
+app/system_aggregator.py
