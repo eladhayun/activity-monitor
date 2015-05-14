@@ -1,4 +1,5 @@
 from setuptools import setup
+from pip.req import parse_requirements
 
 setup(
     # Application name:
@@ -27,8 +28,6 @@ setup(
     long_description=open("README.md").read(),
 
     # Dependent packages (distributions)
-    install_requires=[
-        "flask",
-    ],
+    install_requires=[str(ir.req) for ir in parse_requirements("requirements.txt", session=False)],
     data_files=[("", ["LICENSE", "README.md"])],
 )
