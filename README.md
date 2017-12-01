@@ -1,4 +1,4 @@
-# CinnaMON Server
+# Activity Monitor
 #### A Simple Monitoring Application
 ![alt tag](https://raw.github.com/eladhayun/CinnaMON/master/resources/icon.png)
 ```
@@ -12,9 +12,6 @@ you would access you server from the phone app this way --> http://www.mypublici
 ###### This app uses the following libraries:
 * [Flask](http://flask.pocoo.org)
 * [psutil](https://pypi.python.org/pypi/psutil)
-
-###### The Client's Repository:
-* [cinnamon-client](https://github.com/eladhayun/cinnamon-client)
 
 ![alt tag](https://lh3.googleusercontent.com/8Gwl2cXaAXXoeuuxRpMO1R6kHgVjg07EmPFPPSpwbL3Xg0AcpLINxgNCksCLKcB2Yw=h310)
 ![alt tag](https://lh3.googleusercontent.com/U4vLDSF4q1CdsGJYbUvWSaHpAUW1YDeEcKlKzhk9XCw5VbddwhjQ0RpcUNG29D_hJm0x=h310)
